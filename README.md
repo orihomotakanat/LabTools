@@ -3,26 +3,25 @@
 Contains "chemkinSupportTools", "plotLuminousityProfileTools" and "sensitivityAnalysisTools"
 
 ## chemkinSupportTools
-###Introduction
+### Introduction
 Codes to support using chemkin-PRO
 
-###Needed gems
-* fileutils
+### Needed gems
+* fileutils  
 \*For Win
 * win32ole
 
 
-###How to use
-1. mfrrun.rb
-  1. Create directory which you calculate and directory name must be "{mixture name}_{mechanism name}_P={Pressure}".
-  2. Put this code on dirctory which you calculate.
-  3. Run this code
-  4. Choosing GRAD&CURV mode, Pressure mode and Plotting data mode
-  GRAD&CURV mode: You can choose GRAD&CURV condition. And then, under the condition, it is calculated.
+###How to use "mfrrun.rb" code
+1. Create directory which you calculate and directory name must be "{mixture name}_{mechanism name}_P={Pressure}".
+2. Put this code on dirctory which you calculate.
+3. Run this code
+4. Choosing GRAD&CURV mode, Pressure mode and Plotting data mode
+GRAD&CURV mode: You can choose GRAD&CURV condition. And then, under the condition, it is calculated.
     ex: You typed 1, 0.1 and 0.01 -> Under GRAD&CURV is 1, 0.1 and 0.01, you get 0.01 results
-  Pressure mode: You have to type target pressure and pressure step.
+Pressure mode: You have to type target pressure and pressure step.
     ex: Your current directory is "/CH4_GRI3.0_P=1.0". You typed target pressure; 5.0 and pressure step; 0.5 -> You get P=1.0, 1.5, 2.0,...,4.5, 5.0 results.
-  Plotting data mode: You can choose (1)directly plot results from "premix.out" or (2)plot results and collect the results to a directory.
+Plotting data mode: You can choose (1)directly plot results from "premix.out" or (2)plot results and collect the results to a directory.
 
 
 ## plotLuminousityProfileTools
