@@ -12,7 +12,7 @@ Codes to support using chemkin-PRO
 * win32ole
 
 
-###How to use "mfrrun.rb" code
+### How to use "mfrrun.rb" code
 1. Create directory which you calculate and directory name must be "{mixture name}_{mechanism name}_P={Pressure}".
 2. Put this code on dirctory which you calculate.
 3. Run this code
